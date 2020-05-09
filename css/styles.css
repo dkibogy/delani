@@ -1,7 +1,12 @@
 
 section {
     background-image: url(/IP3/assets/backgrounds/h_img.jpg);
-    background-size: cover;
     background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
+}
+
+h1, {
+    color: white;
+    font-size: 75%;
 }
