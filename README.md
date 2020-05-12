@@ -17,7 +17,7 @@ This project uses bootstrap and jQuery to recreate a landing page for a fictiona
 
 ## Contact Information
 
-If you have any inquiries, please reach out to me through email at [Gmail](jepkemboikibogy5@gmail.com)
+If you have any inquiries, please reach out to me through email at [jepkemboikibogy5@gmail.com]
 
 ## Licenses
 
