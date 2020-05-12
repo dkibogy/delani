@@ -150,8 +150,8 @@
                 <form action="" class="form-cont">
                     <input type="text" name="" id="name" placeholder="Your Name">
                     <input type="email" name="" id="email" placeholder="Your Email">
-                    <textarea name="" id="text" placeholder="leave your message here"></textarea>
-                    <button type="submit"></button>
+                    <textarea name="" id="text" cols="30" rows="10" placeholder="leave your message here"></textarea>
+                    <button type="submit" class="btn btn-secondary">submit</button>
                 </form>
             </div>
         </div>
@@ -173,6 +173,48 @@
         <div class="text-center">
             <p>DELANI STUDIOS<br> 2020</p>
         </div>
-        
+        <!-- Begin Mailchimp Signup Form -->
+        <div id="mc_embed_signup">
+            <form action="https://gmail.us18.list-manage.com/subscribe/post?u=5eb8f3ed70e8d25c8e306a4b8&amp;id=75a939cbc4" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                <div id="mc_embed_signup_scroll">
+                <h2>Subscribe</h2>
+            <div class="mc-field-group">
+                <form class="sign-up">
+                    <label for="mce-EMAIL">Email Address </label>
+                    <input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL">
+                    <input type="hidden" value="Yes" name="5PPURRFECT">
+                    <input type="submit" value="register here!">
+                </form>
+            </div>
+            <script>
+                $('form.sign-up').on('submit',function(e) {
+                    // Highjack the submit button, we will do it ourselves
+                    e.preventDefault();
+                    // uncomment next line & check console to see if button works
+                    // console.log('submit button worked!');
+            
+                    // store all the form data in a variable
+                    var formData = $(this).serialize();
+            
+                    // Let's make the call!
+                    // Replace the path to your own endpoint!
+                    $.getJSON('/Users/Margaret/Documents/moringa-school-projects/delani/mc-end-point.php', formData ,function(data) {
+                        // uncomment next line to see your data output in console
+                        // console.log(data);
+                        
+                        // If it worked...
+                        if(data.status === 'subscribed') {
+                            // Let us know!
+                            alert('Thanks!');
+                        } else {
+                            // Otherwise tell us why it didn't
+                            alert("oops error: " + data.detail);
+                        }
+                    });
+            
+                });
+            </script>  
+    
+    <!--End mc_embed_signup-->
     </body>
 </html>

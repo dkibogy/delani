@@ -11,4 +11,12 @@ $(".card").hover(function(){
 });
 
 
-//
+//contact us form
+//pop-up thank you 
+
+$(button).click(function(popup){
+    var client = document.getElementById("name").val;
+    alert("Hey" + "client" + "Thanks, we have recieved your message" + "we shall respond to you ASAP");
+    popup.preventDefault();
+
+})

@@ -17,12 +17,13 @@ section {
     background-image: url(/IP3/assets/backgrounds/s_image.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 
 }
 
 h1 {
     color: black;
-    font-size: 75%;
+    
 }
 #contact {
     background-image: url(/IP3/assets/backgrounds/c_image.jpg);
@@ -94,4 +95,9 @@ h1 {
 }
 .card-1 {
     display: none;
+}
+.font-cont input {
+    margin-top: 10px;
+    width: 100%;
+    background: transparent;
 }
