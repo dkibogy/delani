@@ -8,7 +8,7 @@
     margin-bottom: 0%;
 }
 header {
-    background-image: url(/IP3/assets/backgrounds/h_img.jpg);
+    background-image: url("https://images.unsplash.com/photo-1541423408854-5df732b6f6d1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjI0MX0&w=1000&q=80");
     height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
