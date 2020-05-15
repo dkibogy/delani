@@ -1,4 +1,29 @@
-// what we do section
+
+// what we do;
+$(document).ready(function(){
+    $("#devLogo").click(function(){
+        $("#toggleDevLogo").animate({
+            height: "toggle"
+        });
+    });
+});
+
+$(document).ready(function(){
+    $("#designLogo").click(function(){
+        $("#toggleDesignLogo").animate({
+            height: "toggle"
+        });
+    });
+});
+
+$(document).ready(function(){
+    $("#productLogo").click(function(){
+        $("#toggleProductLogo").animate({
+            height: "toggle"
+        });
+    });
+});
+
    
 // porfolio
 
