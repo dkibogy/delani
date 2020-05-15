@@ -26,8 +26,62 @@ $(document).ready(function(){
 
 // porfolio
 
-
-
+$(document).ready(function(){
+    $("#card1").click(function(){
+        $("#toggleCard1").animate({
+            height: "toggle"
+        });
+    });
+});
+$(document).ready(function(){
+    $("#card2").click(function(){
+        $("#togglecard2").animate({
+            height: "toggle"
+        });
+    });
+});
+$(document).ready(function(){
+    $("#card3").click(function(){
+        $("#togglecard3").animate({
+            height: "toggle"
+        });
+    });
+});
+$(document).ready(function(){
+    $("#card4").click(function(){
+        $("#togglecard4").animate({
+            height: "toggle"
+        });
+    });
+});
+$(document).ready(function(){
+    $("#card5").click(function(){
+        $("#togglecard5").animate({
+            height: "toggle"
+        });
+    });
+});
+$(document).ready(function(){
+    $("#card6").click(function(){
+        $("#togglecard6").animate({
+            height: "toggle"
+        });
+    });
+});
+$(document).ready(function(){
+    $("#card7").click(function(){
+        $("#togglecard7").animate({
+            height: "toggle"
+        });
+    });
+});
+$(document).ready(function(){
+    $("#card8").click(function(){
+        $("#togglecard8").animate({
+            height: "toggle"
+        });
+    });
+});
 
 
 
