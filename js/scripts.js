@@ -24,8 +24,10 @@ $(document).ready(function(){
     });
 });
 
-   
 // porfolio
+
+
+
 
 $(".card").hover(function(){
     $(this).children(".card-1").fadetoggle(2000);
